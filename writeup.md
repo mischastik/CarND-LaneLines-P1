@@ -47,5 +47,5 @@ If another car blocks a significant part of the lane markings, the line detectio
 
 ### 3. Suggest possible improvements to your pipeline
 
-A more flexible model for the lane markings might be very usefull in practice which can handle bent lines and which can make use of the geometric information, that there are parallel lines on a flat surface.
+A more flexible model for the lane markings might be very usefull in practice which can handle bent lines and which can make use of geometric properties, such that parallel lines at around 4-5 meters distance on a flat surface need to be detected.
 Also temporal information can be very useful, i. e. tracking of the lanes from frame to frame. This could even be improved with using odometry data from the car.
